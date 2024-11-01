@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-06-25 16:24-0500\n"
+"PO-Revision-Date: 2013-06-25 16:28-0500\n"
+"Last-Translator: Jeffrey Schutzman <jeff@pyebrosok.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: H:\\web-site-dev\\sparkle-gear.com\\wp-content\\plugins"
+"\\pbci-buyer-points-for-wpec\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: import.php:5
+msgid "Import Buyer Points from WPEC Purchase History"
+msgstr ""
+
+#: import.php:9 import.php:30
+msgid "Import Purchases"
+msgstr ""
+
+#: import.php:16
+msgid ""
+"This is a manual import option used to create points for existing purchases"
+msgstr ""
+
+#: import.php:19
+msgid ""
+"Normally you would only have to do an import one time.  Use it after you "
+"install the plugin to give your past customers points."
+msgstr ""
+
+#: import.php:22
+msgid ""
+"If you do an import more than once it should not have have any negative "
+"affect. During the import process purchase IDs are checked. Purchase IDs "
+"that already have points awarded do not receive points a second time."
+msgstr ""
+
+#: import.php:26
+msgid ""
+"If you have turned off the plugin for a period of time and want to make sure "
+"points are awarded for purchases during that interval you can click import "
+"again."
+msgstr ""
+
+#: levels.php:14
+msgid "Add Option"
+msgstr ""
+
+#: levels.php:36
+msgid "WPEC Buyer Points Setup Redemption Levels"
+msgstr ""
+
+#: levels.php:67
+msgid ""
+"How many percentage points or currency units is the redemption value &nbsp;"
+"<i>(ignored for free product)</i>"
+msgstr ""
+
+#: levels.php:77
+msgid ""
+"Free product<br><i>(ignored for percentage and fixed discount options)</i>"
+msgstr ""
+
+#: levels.php:95
+msgid ""
+"Description for this option, leave blank to have a prompt created "
+"automatically"
+msgstr ""
+
+#: levels.php:170
+msgid "Remove Option"
+msgstr ""
+
+#: list-details.php:153 list-totals.php:146
+msgid "eMail"
+msgstr ""
+
+#: list-details.php:154 list-totals.php:40 list-totals.php:41
+#: list-totals.php:147
+msgid "Points"
+msgstr ""
+
+#: list-details.php:155
+msgid "Description"
+msgstr ""
+
+#: list-details.php:156 list-totals.php:148
+msgid "Date"
+msgstr ""
+
+#: list-details.php:202 list-totals.php:104 list-totals.php:192
+msgid "Delete"
+msgstr ""
+
+#: list-details.php:222
+msgid "Deleted record id "
+msgstr ""
+
+#: list-details.php:224
+msgid "Could not delete record id "
+msgstr ""
+
+#: list-totals.php:102 pbci-buyer-points-for-wpec.php:77 userprofile.php:6
+msgid "Redeem"
+msgstr ""
+
+#: list-totals.php:210
+#, php-format
+msgid "Deleted all points transactions (%d records) for email "
+msgstr ""
+
+#: list-totals.php:212
+#, php-format
+msgid "Could not delete points for email %s"
+msgstr ""
+
+#: loginbyemail.php:25
+msgid " Or Email"
+msgstr ""
+
+#: options.php:38
+msgid "percent"
+msgstr ""
+
+#: options.php:38
+msgid "fixed amount off"
+msgstr ""
+
+#: options.php:38
+msgid "free product"
+msgstr ""
+
+#: options.php:43 pbci-buyer-points-for-wpec.php:67
+msgid "Buyer Points"
+msgstr ""
+
+#: options.php:53
+msgid "(%points% more %pointsname% to redeem this option)"
+msgstr ""
+
+#: options.php:72
+msgid ""
+"%pointsname% can be redeemed for a percent discount off of a future purchase"
+msgstr ""
+
+#: options.php:73
+msgid ""
+"%pointsname% can be redeemed for a fixed amount off of a future purchase"
+msgstr ""
+
+#: options.php:74
+msgid "%pointsname% can be redeemed for a free product with a future purchase"
+msgstr ""
+
+#: options.php:82
+msgid "Redeem your %pointsname% at %siteurl%"
+msgstr ""
+
+#: options.php:90
+msgid "Redeem %points% %pointsname% for %discount%% off any one item"
+msgstr ""
+
+#: options.php:91
+msgid "Redeem %points% %pointsname% for %currency% off your next purchase"
+msgstr ""
+
+#: options.php:92
+msgid ""
+"Redeem %points% %pointsname% for a free <b>\"%productname%\"</b> with your "
+"next purchase"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:69
+msgid "Points Details"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:70
+msgid "Redemption Levels"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:71
+msgid "Exclude Categories"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:72
+msgid "Settings"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:73
+msgid "Import"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:78 redeem.php:145
+msgid "Get Coupon"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:82
+msgid "Points Totals"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:96
+msgid "Buyer Points for WPEC - Exclude Categories"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:98
+msgid ""
+"Points are earned for purchased from all product categories <b>EXCEPT</b> "
+"when the purchased products are in any of the categories checked below"
+msgstr ""
+
+#: pbci-buyer-points-for-wpec.php:109
+msgid "Save Options"
+msgstr ""
+
+#: redeem.php:201
+#, php-format
+msgid "Coupon code <b>%s</b> previously created for <b>%s</b>"
+msgstr ""
+
+#: redeem.php:206
+msgid "You must select an available redemption option to get your coupon!"
+msgstr ""
+
+#: settings.php:143
+msgid "will be replaces by the name of your points program"
+msgstr ""
+
+#: settings.php:144
+msgid "will be replaced by the number of points"
+msgstr ""
+
+#: settings.php:145
+msgid "will be replaced by the name of the product"
+msgstr ""
+
+#: settings.php:146
+msgid "discount will be replaced by the discount percentage"
+msgstr ""
+
+#: settings.php:147
+msgid ""
+"will be replaced by the discount displayed in your local currency format"
+msgstr ""
+
+#: settings.php:148
+msgid "will be replaced by your web site url"
+msgstr ""
+
+#: userprofile.php:7
+msgid " History"
+msgstr ""
